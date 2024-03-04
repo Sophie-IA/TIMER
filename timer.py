@@ -1,7 +1,7 @@
 import time
-my_time= int(input("Enter time in seconds: "))
+timer= int(input("Enter time in seconds: "))
  
-for x in range (my_time, 0, -1):
+for x in range (timer, 0, -1):
     seconds = x % 60
     minutes = int(x / 60) % 60
     hours = int(x / 3600)
@@ -9,4 +9,4 @@ for x in range (my_time, 0, -1):
     time.sleep(1)
 
 
-print("TIME'S UP")
+print("YOUR TIME IS UP!!!!")
